@@ -7,5 +7,10 @@
 	<system-properties>
 		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
 	</system-properties>
-	
+	<!-- As of the 1.4.3 release of App Engine for Java, an Instance configured  
+        with the following setting can service multiple requests concurrently.
+        
+        See: http://code.google.com/appengine/docs/java/config/appconfig.html#Using_Concurrent_Requests
+    -->
+   <threadsafe>true</threadsafe>
 </appengine-web-app>
