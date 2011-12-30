@@ -20,20 +20,6 @@
       <param-name>javax.faces.DEFAULT_SUFFIX</param-name>
       <param-value>.xhtml</param-value>
    </context-param>
-   <!-- ***** Accommodate Single-Threaded Requirement of Google AppEngine  -->
-   <context-param>
-      <description>
-         When enabled, the runtime initialization and default ResourceHandler
-         implementation will use threads to perform their functions. Set this 
-         value to false if threads aren't desired (as in the case of running 
-         within the Google Application Engine).
-
-         Note that when this option is disabled, the ResourceHandler will not 
-         pick up new versions of resources when ProjectStage is development.
-      </description>
-      <param-name>com.sun.faces.enableThreading</param-name>
-      <param-value>false</param-value>
-   </context-param>   
    <!-- ***** Load the JavaServer Faces Servlet ***** -->
    <servlet>
       <servlet-name>Faces Servlet</servlet-name>
