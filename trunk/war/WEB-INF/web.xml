@@ -27,8 +27,6 @@
    <!-- Disable use of threading for single-threaded environments such as
         the Google AppEngine. -->
    <context-param>
-     <param-name>com.sun.faces.enableThreading</param-name>
-     <param-value>false</param-value>
      <description>
      When enabled, the runtime initialization and default ResourceHandler 
      implementation will use threads to perform their functions. Set this 
@@ -38,6 +36,9 @@
      Note that when this option is disabled, the ResourceHandler will not 
      pick up new versions of resources when ProjectStage is development.
      </description>
+     <param-name>com.sun.faces.enableThreading</param-name>
+     <param-value>false</param-value>     
+   </context-param>
    <!-- ***** Load the JavaServer Faces Servlet ***** -->
    <servlet>
       <servlet-name>Faces Servlet</servlet-name>
