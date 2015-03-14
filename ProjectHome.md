@@ -1,0 +1,3 @@
+This project will house a reference configuration for using the JavaServer Faces 2.0 reference implementation (RI) on the Google App Engine platform.
+
+This template application was developed in the process of composing the "[Configuring JavaServer Faces 2.0 to run on the Google AppEngine](http://java.wildstartech.com/Java-Platform-Enterprise-Edition/JavaServer-Faces/sun-javaserver-faces-reference-implementation/configuring-jsf-20-to-run-on-the-google-appengine)" article.
